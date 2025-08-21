@@ -1,8 +1,1 @@
 Django>=4.2,<5.0
-
-sh '''
-    pip install --no-cache-dir -r todo/requirements.txt
-    python manage.py makemigrations --noinput
-    python manage.py migrate --noinput
-    python manage.py test todo
-'''
